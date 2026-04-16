@@ -5,7 +5,7 @@
         "containerDefinitions": [
             {
                 "name": "fargate-app",
-                "image": "033484685704.dkr.ecr.eu-central-1.amazonaws.com/zeni-repo:latest",
+                "image": "<aws-id>.dkr.ecr.eu-central-1.amazonaws.com/zeni-repo:latest",
                 "portMappings": [
                     {
                         "containerPort": 5000,
