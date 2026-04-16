@@ -1,0 +1,32 @@
+ {
+        "family": "fargate-quotes-api",
+        "networkMode": "awsvpc",
+        "executionRoleArn": "arn:aws:iam::033484685704:role/ecsTaskExecutionRole", 
+        "containerDefinitions": [
+            {
+                "name": "fargate-app",
+                "image": "033484685704.dkr.ecr.eu-central-1.amazonaws.com/zeni-repo:latest",
+                "portMappings": [
+                    {
+                        "containerPort": 5000,
+                        "hostPort": 5000,
+                        "protocol": "tcp"
+                    }
+                ],
+                "essential": true,
+                "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                  "awslogs-group": "/ecs/quotes-api",
+                  "awslogs-region": "eu-central-1",
+                  "awslogs-stream-prefix": "ecs"
+                  }
+                }
+            }
+        ],
+        "requiresCompatibilities": [
+            "FARGATE"
+        ],
+        "cpu": "256",
+        "memory": "512"
+}
