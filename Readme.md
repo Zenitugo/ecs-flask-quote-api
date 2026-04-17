@@ -1,4 +1,4 @@
-# Flask Quote API — ECS Fargate Deployment
+# Flask Quote API: ECS Fargate Deployment
 
 ## 📖 Overview
 A simple Python Flask API that serves motivational quotes from African authors.
