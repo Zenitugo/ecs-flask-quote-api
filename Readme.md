@@ -27,6 +27,7 @@ Terraform: [Blog](https://dhebbydavid.hashnode.dev/deploying-your-first-containe
 - AWS CLI
 
 ## 📂 Repo Structure
+```
 ecs-flask-quote-api /
 ├── Dockerfile
 ├── Readme.md
@@ -36,7 +37,7 @@ ecs-flask-quote-api /
 ├── ecsTaskExecutionRoleTrust.json
 ├── requirements.txt
 └── task-def.json
-
+```
 
 ## ⚙️ Setup Instructions
 
