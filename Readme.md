@@ -7,7 +7,7 @@ using the Fargate launch type and AWS CLI commands. No Terraform, no console
 clicking. It also covers ECR image scanning and container logging with CloudWatch.
 
 This is Part 2 of my ECS deployment series. Part 1 covers EC2 launch type with 
-Terraform: [https://dhebbydavid.hashnode.dev/deploying-your-first-containerized-application-on-aws-ecs-part-1]
+Terraform: [Blog](https://dhebbydavid.hashnode.dev/deploying-your-first-containerized-application-on-aws-ecs-part-1)
 
 ## 🚀 Features
 - Containerized Flask API with Gunicorn
